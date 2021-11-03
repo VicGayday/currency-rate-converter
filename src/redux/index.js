@@ -1,9 +1,9 @@
-import { createStore, combineReducers } from "redux";
-// import { auth } from "./reducers/auth";
-import { composeWithDevTools } from "redux-devtools-extension";
+import { createStore, combineReducers } from "redux"
+import { currency } from "./reducers/currency"
+import { composeWithDevTools } from "redux-devtools-extension"
 
 const rootReducer = combineReducers({
-  // auth,
+  currency
 });
 
-export const store = createStore(rootReducer, composeWithDevTools());
+export const store = createStore(rootReducer, composeWithDevTools())

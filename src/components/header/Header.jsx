@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <header>
-      <h1>Currency conventer</h1>
+      <h1>Currency converter</h1>
     </header>
   );
 };
