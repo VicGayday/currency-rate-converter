@@ -13,4 +13,48 @@
 
 main {
   width: 90vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+label {
+  font-weight: 600;
+  margin: 0 0 1vh 1vw;
+}
+
+input {
+  border: 1px solid rgb(221, 221, 221);
+  appearance: none;
+	box-shadow: rgba(0, 17, 51, 0.05) 0px 3px 15px;
+	padding: 12px;
+  border-radius: 6px;
+  color: rgb(20, 30, 55);
+  margin: 0 0 2vh 1vw;
+}
+
+input:focus {
+	border: 1px solid rgb(34, 116, 240);
+  outline: none;
+}
+
+.submit-button {
+  background:rgb(34, 116, 240);
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  color:rgb(255, 255, 255);
+  font-size: 1.0rem;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+.submit-button:hover {
+  /* transition-property: background-color;
+  transition-duration: 0.3s; */
+  background: rgb(80, 147, 248);
+}
+
+

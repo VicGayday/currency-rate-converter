@@ -5,8 +5,8 @@ import './Main.css'
 const Main = () => {
   return (
     <main>
-      <section className="form-container">
-        <form>
+      <section>
+        <form className="form-container">
           <div className="wrapper">
             <label htmlFor="amount">Amount</label>
             <input
